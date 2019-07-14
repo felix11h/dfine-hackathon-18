@@ -44,6 +44,7 @@ def template_macro(date):
       <ul class='legend-labels'>
         <li><span style='background:blue;opacity:0.7;'></span> Verkehr</li>
         <li><span style='background:#E37222;opacity:0.7;'></span>Stickstoffdioxid NO2</li>
+<li><span style='background:#808080;opacity:0.7;'></span>Regressionsmodell</li>
 
       </ul>
     </div>
@@ -71,7 +72,7 @@ def template_macro(date):
         list-style: none;
         margin-left: 0;
         line-height: 18px;
-        margin-bottom: 10px;
+        margin-bottom: 12px;
         }
       .maplegend ul.legend-labels li span {
         display: block;
