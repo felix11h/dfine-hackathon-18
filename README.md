@@ -5,7 +5,7 @@ This is part of my team's submission for the two-day d-fine hackathon which took
 
 #### Goal
 
-Our goal was to find and predict roads that, if blocked locally, would significantly reduce air pollution (as mandated by [law](https://www.reuters.com/article/us-volkswagen-emissions-frankfurt/german-court-says-frankfurt-must-ban-older-diesel-cars-idUSKCN1LL2GC)). My team mates analyzed the data and trained a regression model, while I focused on data processing and visualization.
+Our goal was to find and predict roads that, if blocked locally, would significantly reduce air pollution (as mandated by [law](https://www.reuters.com/article/us-volkswagen-emissions-frankfurt/german-court-says-frankfurt-must-ban-older-diesel-cars-idUSKCN1LL2GC)). The other members of my team analyzed the data and trained a regression model, while I focused on data processing and visualization.
 
 #### Data
 
@@ -18,8 +18,6 @@ Folium is able to generate local html files, which provide an interactive map. A
 
 #### Trained model
 
-We used a regression model to predict which roadbloaks would be effective in reducing the air pollution measured. In animation below, the grey curve shows the predicted pollution measurements when the roads with red nodes are blocked. Clearly, the model could still use a lot of work!
+We used a regression model to try to predict which roadblocks would be effective in reducing the air pollution measured. In animation below, the grey curve shows the predicted pollution measurements when the roads with red nodes are blocked. 
 
 ![animated blocked roads map](https://raw.githubusercontent.com/felix11h/dfine-hackathon-18/master/pub/roadblocks_animated.gif)
-
-
