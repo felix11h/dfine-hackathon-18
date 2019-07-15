@@ -9,7 +9,7 @@ Our goal was to find and predict roads that, if blocked locally, would significa
 
 #### Data
 
-The animated map below shows our data over the course of a single day. I used [folium](https://github.com/python-visualization/folium) and added custom legend and the plot overlay, generated in matplotlib. The blue nodes are measurements of traffic, their size reflecting registered cars per time unit (30min). The orange node is the air pollution measurement station, the plot in the bottom left shows the time course of the measurements. The animation below loops over the duration of one day (current time indicated by the arrow in the left-corner plot).
+The animated map below shows our data over the course of a single day. I used [folium](https://github.com/python-visualization/folium) and added a custom legend and a plot overlay, generated in matplotlib. The <span style="color:blue">blue nodes</span> are measurements of traffic, their size reflecting registered cars per time unit (30min). The  <span style="color:orange">orange node</span> is the air pollution measurement station, the plot in the bottom left shows the time course of the measurements. The animation below loops over the duration of one day (current time indicated by the arrow in the left-corner plot).
 
 ![animated map](https://raw.githubusercontent.com/felix11h/dfine-hackathon-18/master/pub/original_data_animated.gif)
 
